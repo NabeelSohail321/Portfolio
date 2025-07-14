@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Fake from "../../Assets/Projects/Fake.png";
 
 function Projects() {
   return (
@@ -25,21 +25,21 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Clone Amazon Page"
+              description=" Amazon landing page built to mimic its layout, design, and key features using modern web technologies like HTML, CSS, and JavaScript for learning or project purposes.this project showcases my skills in front-end development and attention to detail, providing a user-friendly interface that resembles the original Amazon experience."
+              ghLink="https://github.com/BrandDanish/First-Project-of-Web-Development"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Fake}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Fake Currency Detector"
+              description="A fake currency detector built with Python uses image processing and machine learning techniques to identify counterfeit banknotes with display a flag of pakistan when successfully detected. The project utilizes OpenCV for image processing and a trained machine learning model to classify the authenticity of the currency notes."
+              ghLink="https://github.com/BrandDanish/Fake-Currency-Detector"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="AI-Powered Code Review Editor"
+              description="An AI-powered code review system built with the MERN stack and integrated with Gemini AI automates the process of analyzing code for errors, best practices, and improvements, providing intelligent suggestions to enhance code quality and developer productivity.this project showcases my skills in full-stack development, AI integration, and code analysis, offering a valuable tool for developers to streamline their code review process."
+              ghLink="https://github.com/BrandDanish/Code_Reviewer"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
