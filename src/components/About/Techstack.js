@@ -3,22 +3,19 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
+  DiMongodb,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-
 } from "react-icons/di";
 import {
-  
-  SiNextdotjs,
-  SiSolidity,
-  
+  SiFirebase,
+  SiMysql,
+  SiDart,
+  SiHtml5,
+  SiCss3,
+  SiFlutter,
+  SiRedux,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-import { FaWordpress } from "react-icons/fa";   // WordPress from Font Awesome
-import { SiMysql } from "react-icons/si";       // MySQL from Simple Icons
 
 function Techstack() {
   return (
@@ -30,29 +27,34 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiCss3 />
       </Col>
-  
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDart />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaWordpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux title="Provider (used as representative icon)" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
       </Col>
     </Row>
   );

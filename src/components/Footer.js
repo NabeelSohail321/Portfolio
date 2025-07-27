@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Danish Iqbal</h3>
+          <h3>Designed and Developed by Nabeel Sohail</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} DI</h3>
+          <h3>Copyright © {year} NS</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/BrandDanish"
+                href="https://github.com/nabeelsohail321"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -34,7 +34,7 @@ function Footer() {
             
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/danish-iqbal"
+                href="www.linkedin.com/in/nabeelsohail321"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -44,7 +44,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/danish_iqbal36"
+                href="https://www.instagram.com/nabeelsohail321/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
