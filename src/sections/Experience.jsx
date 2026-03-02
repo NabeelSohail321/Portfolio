@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Section from "../components/Section";
-import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import { motion, useScroll, useSpring } from "framer-motion";
 import { GraduationCap, Briefcase, Calendar, MapPin } from "lucide-react";
 
 const Experience = () => {
